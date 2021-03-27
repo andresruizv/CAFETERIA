@@ -37,3 +37,23 @@ li a:hover {
     background-color: #0ebd08;
     color: #ffffff;
 }
+
+h1 {
+    text-align: center;
+}
+
+#contactos {
+    text-align: center;
+}
+
+#img1 {
+    margin-right: 20%;
+}
+
+#img2 {
+    margin-left: 10%;
+}
+
+#link1 {
+    margin-right: 40%;
+}
