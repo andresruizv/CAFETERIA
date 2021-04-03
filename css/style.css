@@ -3,13 +3,16 @@ body {
     box-sizing: border-box;
 }
 
+
+/*menu*/
+
 ul {
     list-style-type: none;
     margin-top: 0;
     padding: 0;
     width: 100%;
     height: 7%;
-    background-color: #494e4e;
+    background-color: #F2E3D5;
     position: fixed;
     overflow: auto;
 }
@@ -23,40 +26,27 @@ li {
 
 li a {
     display: block;
-    color: #ffffff;
+    color: #261303;
     padding: 8px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #8c9292;
-    color: #ffffff;
+    background-color: #eccaaa;
+    color: #592C12;
 }
 
 .active {
-    background-color: #0ebd08;
-    color: #ffffff;
+    background-color: #613217;
+    color: #ffff;
 }
 
 h1 {
     text-align: center;
 }
 
-#contactos {
-    text-align: center;
-}
 
-#img1 {
-    margin-right: 20%;
-}
-
-#img2 {
-    margin-left: 10%;
-}
-
-#link1 {
-    margin-right: 40%;
-}
+/*Carta*/
 
 .titulo {
     font-family: Arial, Helvetica, sans-serif;
@@ -80,4 +70,46 @@ h1 {
     float: right;
 }
 
-div {}
+
+/* contacto*/
+
+.leftside,
+.rightside {
+    position: static;
+    height: 50vh;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .leftside,
+    .rightside {
+        height: 100vh;
+        width: 100%;
+    }
+}
+
+.leftside {
+    background: #f0ab6b;
+}
+
+.leftside:hover {
+    background: #ebb786;
+}
+
+.rightside {
+    background: #9b603d;
+}
+
+.rightside:hover {
+    background: #bd815e;
+}
+
+#sec1 {
+    height: 100vh;
+    background-color: #eccaaa;
+}
+
+#sec2 {
+    height: 100vh;
+    background-color: #613217;
+}
