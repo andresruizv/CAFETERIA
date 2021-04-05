@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
+    height: 7%;
+    background-color: #F2E3D5;
+    position: fixed;
+    overflow: auto;
+}
+
+li {
+    text-align: center;
+    display: inline-block;
+    width: 10%;
+    padding: 5px 10px;
+}
+
+li a {
+    display: block;
+    color: #261303;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #eccaaa;
+    color: #261303;
+}
+
+.active {
+    background-color: #592C12;
+    color: #eccaaa;
+}
+
+h1 {
+    text-align: center;
+}
+
+#contactos {
+    text-align: center;
+}
+
+#img1 {
+    margin-right: 20%;
+}
+
+#img2 {
+    margin-left: 10%;
+}
+
+#link1 {
+    margin-right: 40%;
+}
+
+.titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+#cafe {
+    float: right;
+}
+
+#postres {
+    float: left;
+}
+
+#sandwiches {
+    float: right;
+}
+
+.center {
+    text-align: right;
+}
+
+.logo {
+    text-align: center;
+    background-color: #eccaaa;
+    ;
+}
+
+.ubicacion {
+    background-color: #eccaaa;
+    ;
+}
+
+.local {
+    text-align: center;
+    background-color: #eccaaa;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.lob {
+    text-align: right;
+    background-color: purple;
+}
+
+.alto {
+    height: 100vh;
+}
