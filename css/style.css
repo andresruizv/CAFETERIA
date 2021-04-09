@@ -6,28 +6,46 @@ body {
 
 /*menu*/
 
-ul {
-    list-style-type: none;
-    margin-top: 0;
-    padding: 0;
+header {
     width: 100%;
-    height: 7%;
     background-color: #F2E3D5;
-    position: fixed;
-    overflow: auto;
 }
 
-li {
+#btn-menu {
+    display: none;
+}
+
+header label {
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #592C12;
+}
+
+header label:hover {
+    cursor: pointer;
+    background: #eccaaa;
+}
+
+.menu ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
     text-align: center;
     display: inline-block;
     width: 10%;
     padding: 5px 10px;
 }
 
-li a {
+.menu li a {
     display: block;
     color: #261303;
-    padding: 8px 16px;
+    padding: 15px 20px;
     text-decoration: none;
 }
 
@@ -36,10 +54,35 @@ li a:hover {
     color: #592C12;
 }
 
-.active {
+@media (max-width:768px) {
+    header label {
+        display: block;
+    }
+    .menu {
+        position: absolute;
+        background-color: #F2E3D5;
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.5s;
+    }
+    .menu ul {
+        flex-direction: column;
+    }
+    #btn-menu:checked~.menu {
+        margin: 0;
+    }
+    .menu li a {
+        padding-right: 70px;
+    }
+}
+
+#active {
     background-color: #613217;
     color: #ffff;
 }
+
+
+/*titulos del inicio, contacto y nosotros*/
 
 h1 {
     text-align: center;
