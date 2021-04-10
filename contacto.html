@@ -11,6 +11,7 @@
 </head>
 
 <body>
+
     <header>
         <input type="checkbox" id="btn-menu">
         <label for="btn-menu">
@@ -27,11 +28,10 @@
             </ul>
         </nav>
     </header>
-
     <section id="sec1">
-        <header>
+        <article>
             <h1>Puedes contactarte con nosotros!</h1>
-        </header>
+        </article>
 
         <div class="row no-gutters">
 
@@ -40,7 +40,9 @@
                 <div class="leftside d-flex justify-content-center align-items-center">
                     <div>
                         <a href="https://www.instagram.com/">
-                            <img src="img/instagram.png" alt="Pagina de Instagram">
+                            <div>
+                                <img class="resizeimg" src="img/instagram.png" alt="Pagina de Instagram">
+                            </div>
                         </a>
                     </div>
                 </div>
@@ -51,12 +53,46 @@
 
                     <div>
                         <a href="https://web.whatsapp.com/">
-                            <img src="img/wsp.png" alt="Whatssap">
+                            <div>
+                                <img class="resizeimg" src="img/wsp.png" alt="Whatssap">
+                            </div>
                         </a>
                     </div>
                 </div>
 
             </div>
+    </section>
+
+    <section id="sec2">
+        <article>
+            <h1 id="sugerencias">Mandanos tus sugerencias!</h1>
+        </article>
+
+        <section>
+
+            <form action="/action_page.php" class="was-validated">
+                <div class="form-group">
+                    <label for="uname">Nombre:</label>
+                    <input type="text" class="form-control" id="uname" placeholder="Ingrese su nombre" name="uname" required>
+                    <div class="valid-feedback">Valido.</div>
+                    <div class="invalid-feedback">Por favor ingrese su nombre.</div>
+                </div>
+                <div class="form-group">
+                    <label for="uname">Email:</label>
+                    <input type="text" class="form-control" id="uname" placeholder="Ingrese su Email" name="uname" required>
+                    <div class="valid-feedback">Valido.</div>
+                    <div class="invalid-feedback">Por favor ingrese su Email.</div>
+                </div>
+                <div class="form-group">
+                    <textarea name="comentarios" rows="10" placeholder="Escribe aquí tus comentarios" class="form-control"></textarea>
+
+                </div>
+
+                <button type="button" class="btn btn-primary" OnClick="location.href='index.html' ">Enviar y volver a Inico</button>
+
+            </form>
+
+        </section>
     </section>
 
 
@@ -65,13 +101,13 @@
 
 
     <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
 
     <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js "></script>
 
     <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js "></script>
 </body>
 
 </html>
