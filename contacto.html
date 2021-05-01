@@ -7,64 +7,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="CSS1/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
-    <header>
-        <input type="checkbox" id="btn-menu">
-        <label for="btn-menu">
+    <section>
+        <header>
+            <input type="checkbox" id="btn-menu">
+            <label for="btn-menu">
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
           </svg>
         </label>
-        <nav class="menu">
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="carta.html">Carta</a></li>
-                <li><a id="active" href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="carta.html">Carta</a></li>
+                    <li><a id="active" href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+    </section>
     <section id="sec1">
-        <article>
-            <h1>Puedes contactarte con nosotros!</h1>
-        </article>
+        <div class="container">
+            <div class="row">
+                <div class="col algo">
+                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d228.87251136130857!2d-71.40763532654886!3d-33.32212462599639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96626fb54e19cb7b%3A0xe2214c4ab221e710!2sCAF%C3%89CITY_Specialty%20Coffee!5e0!3m2!1ses!2scl!4v1619705932923!5m2!1ses!2scl"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
 
-        <div class="row no-gutters">
-
-            <div class="col-md-6 no-gutters">
-
-                <div class="leftside d-flex justify-content-center align-items-center">
-                    <div>
-                        <a href="https://www.instagram.com/">
-                            <div>
-                                <img class="resizeimg" src="img/instagram.png" alt="Pagina de Instagram">
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6 no-gutters">
-                <div class="rightside d-flex justify-content-center align-items-center">
-
-                    <div>
-                        <a href="https://web.whatsapp.com/">
-                            <div>
-                                <img class="resizeimg" src="img/wsp.png" alt="Whatssap">
-                            </div>
-                        </a>
-                    </div>
                 </div>
 
+                <div class="col algo">
+                    <h2>Encuentranos en: </h2>
+                    <h3>
+                        <strong>Direccion</strong>
+                        <br> Avenida Diego Portales 351
+                        <br> local 5
+                        <br> Casablanca, Valparaíso
+                    </h3>
+
+                    <h3>
+                        <br>
+                        <strong>Teléfono</strong>
+                        <br> (569) 9190 7690
+                    </h3>
+
+                </div>
             </div>
+        </div>
     </section>
 
     <section id="sec2">
-        <article>
+        <article class="flex-container">
             <h1 id="sugerencias">Mandanos tus sugerencias!</h1>
         </article>
 
@@ -84,15 +83,30 @@
                     <div class="invalid-feedback">Por favor ingrese su Email.</div>
                 </div>
                 <div class="form-group">
-                    <textarea name="comentarios" rows="10" placeholder="Escribe aquí tus comentarios" class="form-control"></textarea>
-
+                    <textarea name="comentarios" rows="10" placeholder="Escribe aquí tus comentarios" class="form-control" required></textarea>
+                    <div class="valid-feedback"> Comentario valido.</div>
+                    <div class="invalid-feedback">ingrese comentario.</div>
                 </div>
 
-                <button type="button" class="btn btn-primary" OnClick="location.href='index.html' ">Enviar y volver a Inico</button>
+                <button type="submit" class="btn btn-primary">Enviar</button>
 
             </form>
 
         </section>
+    </section>
+    <section class="footer">
+        <div class="iconos-footer">
+            <a href="https://web.facebook.com/CAF%C3%89CITY_Specialty-Coffee-113657210817363/?__tn__=-UC*F" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/cafecity_specialtycoffee/" class="fa fa-instagram"></a>
+            <a href="https://web.whatsapp.com/" class="fa fa-whatsapp"></a>
+
+        </div>
+        <div class="contacto-footer">
+            <a id="contacto" href="contacto.html">Contactanos</a>
+
+            <p>(569) 9190 7690 </p>
+        </div>
+
     </section>
 
 
@@ -108,6 +122,8 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js "></script>
+
+
 </body>
 
 </html>
