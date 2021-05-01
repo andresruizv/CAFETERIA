@@ -214,3 +214,40 @@ flex-container {
     height: auto;
     width: 100%;
 }
+
+
+/*footer*/
+
+.footer {
+    background-color: #592C12;
+    height: 20vh;
+}
+
+.contacto-footer {
+    height: 60%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.iconos-footer {
+    height: 40%;
+    text-align: center;
+}
+
+.fa {
+    padding: 20px 0px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+.fa:hover {
+    color: #ffffff;
+}
+
+#contacto {
+    text-decoration: none;
+    color: #000000;
+}
