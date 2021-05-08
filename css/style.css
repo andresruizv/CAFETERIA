@@ -3,8 +3,153 @@ body {
     box-sizing: border-box;
 }
 
+h1 {
+    text-align: center;
+}
 
-/*menu*/
+#contactos {
+    text-align: center;
+}
+
+#img1 {
+    margin-right: 20%;
+}
+
+#img2 {
+    margin-left: 10%;
+}
+
+#link1 {
+    margin-right: 40%;
+}
+
+.titulo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+#cafe {
+    float: right;
+}
+
+#postres {
+    float: left;
+}
+
+#sandwiches {
+    float: right;
+}
+
+.center {
+    text-align: left;
+}
+
+.logo {
+    background-color: #eccaaa;
+    ;
+}
+
+.ubicacion {
+    background-color: #eccaaa;
+    ;
+}
+
+.local {
+    text-align: center;
+    background-color: #eccaaa;
+}
+
+.lob {
+    text-align: right;
+    background-color: purple;
+}
+
+.alto {
+    height: 100vh;
+}
+
+
+/* ACTUALIZACION DEL CSS */
+
+#divimgcafecity {
+    text-align: center;
+}
+
+#imgcafecity {
+    height: auto;
+    max-height: 100vh;
+    width: 85%;
+}
+
+.container-fluid {
+    background-color: #592C12;
+}
+
+.seccion-carrusel {
+    background-color: #eccaaa;
+}
+
+.carrusel {
+    height: 100vh;
+    width: 85%;
+    margin: auto;
+}
+
+.carousel-item img {
+    height: auto;
+    max-height: 100vh;
+    width: 100%;
+}
+
+.slide {
+    text-align: center;
+}
+
+.carousel-indicators {
+    margin: auto;
+    text-align: center;
+    background-color: transparent;
+}
+
+.seccion-mapa {
+    background-color: #eccaaa;
+}
+
+.footer {
+    background-color: #592C12;
+    height: 20vh;
+}
+
+.parrafo {
+    height: 20%;
+    text-align: center;
+    padding: 30px;
+}
+
+.titulo {
+    height: 20%;
+    padding-top: 50px;
+}
+
+.divimgubicacion {
+    text-align: center;
+    height: 60%
+}
+
+#imgubicacion {
+    height: auto;
+    width: 85%;
+    max-height: 60vh;
+}
+
+.altol {
+    background-color: #eccaaa;
+    height: 100vh;
+}
 
 header {
     width: 100%;
@@ -83,151 +228,7 @@ li a:hover {
 }
 
 
-/*titulos del inicio, contacto y nosotros*/
-
-h1 {
-    text-align: center;
-    margin-bottom: 0;
-}
-
-
-/*Carta*/
-
-.titulo {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.negrita {
-    font-weight: bold;
-}
-
-#cafe {
-    float: right;
-}
-
-#postres {
-    float: left;
-}
-
-#sandwiches {
-    float: right;
-}
-
-
-/* contacto*/
-
-
-/* .leftside,
-.rightside {
-    position: static;
-    height: 50vh;
-    width: 100%;
-}
-
-@media screen and (min-width: 768px) {
-    .leftside,
-    .rightside {
-        height: 84.8vh;
-        width: 100%;
-    }
-}
-
-.leftside {
-    background: #f0ab6b;
-}
-
-.leftside:hover {
-    background: #ebb786;
-}
-
-.rightside {
-    background: #9b603d;
-}
-
-.rightside:hover {
-    background: #bd815e;
-} 
-
-#sec1 {
-    height: 91.2vh;
-    background-color: #eccaaa;
-}
-
-#sec2 {
-    height: 100vh;
-    background-color: #d39a79;
-}
-
-#sec2 section {
-    margin: 10px 20px;
-    padding: 20px;
-    background: #eccaaa;
-}
-
-@media (max-width: 768px) {
-    #sec2 h1 {
-        padding-top: 200px;
-    }
-}*/
-
-
-/* 30-04-21 Contacto*/
-
-#sec1 {
-    background-color: #eccaaa;
-}
-
-#sec2 {
-    background-color: #d39a79;
-    padding-bottom: 10px;
-}
-
-#sec2 section {
-    margin: 10px 20px;
-    padding: 20px;
-    background: #eccaaa;
-}
-
-flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 30px;
-    text-align: center;
-}
-
-.algo {
-    padding: 17px;
-}
-
-@media (max-width: 768px) {
-    iframe {
-        width: auto;
-    }
-}
-
-
-/*resize de imagenes*/
-
-.resizeimg {
-    height: auto;
-    width: 100%;
-}
-
-
-/*footer*/
-
-.footer {
-    background-color: #592C12;
-    height: 20vh;
-}
-
-.contacto-footer {
-    height: 60%;
-    text-align: center;
-    color: #ffffff;
-}
+/* EDIT INDEX*/
 
 .iconos-footer {
     height: 40%;
@@ -247,7 +248,117 @@ flex-container {
     color: #ffffff;
 }
 
+.contacto-footer {
+    height: 60%;
+    text-align: center;
+    color: #ffffff;
+}
+
 #contacto {
     text-decoration: none;
     color: #000000;
+}
+
+#contacto:hover {
+    color: #ffffff;
+}
+
+
+/* EDIT NOSOTROS*/
+
+.nosotros {
+    background-color: #eccaaa;
+}
+
+.div-garzon {
+    width: 50%;
+    float: right;
+}
+
+#garzona {
+    height: auto;
+    max-height: 100vh;
+    width: 100%;
+}
+
+.div-texto {
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+
+.div-copero {
+    width: 50%;
+    float: left;
+}
+
+#copero {
+    height: auto;
+    max-height: 100vh;
+    width: 100%;
+}
+
+.div-texto-2 {
+    width: 50%;
+    float: right;
+    text-align: left;
+}
+
+.div-barista {
+    width: 50%;
+    float: right;
+}
+
+#barista {
+    height: auto;
+    max-height: 100vh;
+    width: 100%;
+}
+
+.div-texto-3 {
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+
+.carta {
+    background-color: #eccaaa;
+}
+
+.div-cafe {
+    width: 50%;
+    float: right;
+    height: 100vh;
+}
+
+#cafe {
+    height: auto;
+    max-height: 100vh;
+    width: 100%;
+}
+
+.div-postres {
+    width: 50%;
+    float: left;
+}
+
+#postres {
+    height: auto;
+    max-height: 100vh;
+    width: 100%;
+}
+
+.div-sandwiches {
+    width: 50%;
+    float: right;
+}
+
+#sandwiches {
+    height: auto;
+    max-height: 100vh;
+    width: 100%;
+}
+
+* {
+    font-family: 'Courgette', cursive;
 }
