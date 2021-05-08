@@ -12,27 +12,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="CSS1/style.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleNavigation.css">
 </head>
 
 <body>
+    <!-- Menu -->
     <section>
-        <header>
-            <input type="checkbox" id="btn-menu">
-            <label for="btn-menu">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-          </svg>
-        </label>
-            <nav class="menu">
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="carta.html">Carta</a></li>
-                    <li><a id="active" href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </header>
+        <nav>
+            <div class="logo">
+                <h4>CafeCity</h4>
+            </div>
+
+            <ul class="nav-links">
+                <li>
+                    <a href="index.html">Inicio</a></li>
+                <li>
+                    <a href="carta.html">Carta</a></li>
+                <li>
+                    <a href="nosotros.html">Nosotros</a></li>
+                <li>
+                    <a id="active" href="contacto.html">Contacto</a></li>
+            </ul>
+
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
     </section>
+
+    <!-- Ubicacion y cotactos -->
     <section id="sec1">
         <div class="container">
             <div class="row">
@@ -61,7 +71,7 @@
             </div>
         </div>
     </section>
-
+    <!-- Formulario -->
     <section id="sec2">
         <article class="flex-container">
             <h1 id="sugerencias">Mandanos tus sugerencias!</h1>
@@ -94,6 +104,7 @@
 
         </section>
     </section>
+    <!-- Footer -->
     <section class="footer">
         <div class="iconos-footer">
             <a href="https://web.facebook.com/CAF%C3%89CITY_Specialty-Coffee-113657210817363/?__tn__=-UC*F" class="fa fa-facebook"></a>
@@ -123,7 +134,8 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js "></script>
 
-
+    <!-- Script Menu -->
+    <script src="app.js"></script>
 </body>
 
 </html>
